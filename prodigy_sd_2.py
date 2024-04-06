@@ -4,7 +4,6 @@ def guessing_game():
     print("Welcome to the Guessing Game!!")
     print("I have selected a random number between 1 and 1000. Let's see if you can guess it!!")
 
-    # Generate a random number between 1 and 100
     secret_number = random.randint(1, 1000)
     attempts = 0
 
